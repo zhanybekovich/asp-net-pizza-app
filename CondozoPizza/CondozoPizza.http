@@ -1,0 +1,11 @@
+@CondozoPizza_HostAddress = http://localhost:5064
+
+GET {{CondozoPizza_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{CondozoPizza_HostAddress}}/pizza/
+Accept: application/json
+
+###
